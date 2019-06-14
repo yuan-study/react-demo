@@ -57,7 +57,7 @@ ReactDOM.render(
 
 
 /**
-this is a test word
+this is beautiful word
  * 【拓展】
  *  react-redux 的 Provider 中传入的属性
  *  可以让全体组件轻松访问，避免繁琐累赘的层层下传。例子：
