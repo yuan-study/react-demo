@@ -1,6 +1,6 @@
 /* 入口启动文件 */
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'
 import { Router } from 'react-router'
 import store, { history } from 'STORE'
@@ -57,10 +57,11 @@ ReactDOM.render(
 
 
 /**
+this is a test word
  * 【拓展】
  *  react-redux 的 Provider 中传入的属性
  *  可以让全体组件轻松访问，避免繁琐累赘的层层下传。例子：
- *  
+ *
  *  class XXX extends Component {
  *    static contextTypes = {
  *      // 组件中需要这样子声明
@@ -71,7 +72,7 @@ ReactDOM.render(
  *      this.context.store.getState()
  *    }
  *  }
- *  
+ *
  *  但上面这种官方的做法实在太麻烦，于是我们有更为直接的方式：
  *  import store from 'STORE'
  *  store.getState() // 只读，更改 state 只能通过 dispatch
